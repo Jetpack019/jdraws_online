@@ -1,0 +1,94 @@
+@import  "../../../global.scss";
+
+.footer {
+
+    background: #000;
+    color: #fff;
+    padding:0 20px;
+
+
+
+    .container{
+      padding: 100px 20px;
+      display: flex;
+      align-items:flex-start;  
+      justify-content: space-between;
+      @include mobile{
+        display: flex;
+        flex-direction: column;
+        
+      }
+      .left{
+      
+        a{
+            font-size: 40px;
+            font-weight: 700;
+            text-decoration: none;
+            color: white;
+        }
+        .container-bottom{
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          margin-top: 60px;
+          a{
+            margin-top: 20px;
+            font-size: 20px;
+            color: white;
+
+          }
+        }
+      }
+
+      .center{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        @include mobile{
+          margin: 40px 0;
+        }
+        a{
+          font-size:20px;
+            font-weight: 500;
+            text-decoration: none;
+            color: white;
+            margin-bottom: 30px;
+        }
+      }
+
+      .right{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-right: 20px;
+        .container-icons{
+          display: flex;
+          justify-content: center;
+    
+          a{
+      
+            i {
+              margin-right: 20px;
+              color: white;
+              font-size:30px;
+            }
+          }
+        }
+
+        .address{
+          margin-top: 40px;
+          font-size: 20px;
+          text-decoration: none;
+          color: white;
+        }
+      }
+
+    }
+
+  }
+
+  
+  
+  

@@ -1,0 +1,110 @@
+@import  "../../../global.scss";
+
+.introAbout{
+    background-color: #000000;
+   
+    .container-About{
+        display: flex;
+        padding: 60px 120px;
+        justify-content: center; 
+        
+        @include mobile{
+            flex-direction: column;
+            padding: 30px 50px;
+        }
+        .left{
+            flex: 0.7;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-right: 100px;
+            justify-content: space-evenly;
+            @include mobile{
+                margin-right: 0px;
+            }
+            h1{
+                font-size: 40px;
+                color: white;
+                @include mobile{
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+            }
+            p{
+                font-size:20px;
+                font-weight: 300;
+                margin-top: 10px;
+                color: white;
+                @include mobile{
+                    font-size:15px;
+                    margin-bottom: 10px;
+                }
+            }
+            h2{
+                margin-top: 20px;
+                color: white;
+                font-weight: 500;
+            }
+            .row_tech_stack{
+                margin-top: 10px;
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                color: black;
+                justify-content: space-between;
+                
+                h3 {
+                    font-weight: 500;
+                    font-size: 15px;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                    background-color: white;
+                    padding: 7px;
+                    border-radius: 10px;
+                    text-align: center;
+                    display: inline-block;
+                    line-height: 1;
+                    &:hover{
+                        background-color: black;
+                        color: white;
+                       
+                    }
+                  }
+                
+            }
+            button{
+                margin-top: 10px;
+                color: white;
+                background-color: rgb(40, 46, 94);
+                border-radius: 10px;
+                border-width: 0;
+                padding: 15px 30px;
+                text-align: center;
+                
+                &:hover{
+                    color: rgb(0, 0, 0);
+                background-color: rgb(255, 255, 255);
+                }
+            }
+
+            
+        }
+    
+        .right{
+            flex: 0.5;
+    
+            .img-container{
+                align-items: center;
+                padding: 20px 20px;
+
+                img{
+                    height: 350px;
+                    width: 450px;
+                    @include mobile{
+                        height: 250px;
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,134 @@
+@import "../../../global.scss";
+
+.education {
+  margin: 0 auto;
+
+
+  .container-education{
+    display: flex;
+    margin: 70px 100px;
+    transition: 1s ease;
+    @include mobile{
+      margin: 20px 20px;
+      justify-content: center;
+      padding-top: 100px;
+    }
+    .left{  
+      flex: 0.55;
+      justify-content: flex-start;
+      
+      @include mobile{
+        flex: 0;
+        justify-content: center;
+ 
+       }
+      .image-container{
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        @include mobile{
+         align-self: center;
+        }
+        .image-transition{
+          transition: 1s ease-in
+        }
+        img{
+          height:350px;
+          width: 100%;
+          border-radius: 20px;
+          @include mobile{
+           display: none;
+          }
+        }
+      }
+    }
+    .right{
+      flex: 0.2;
+      padding: 20px 80px;
+
+      @include mobile{
+        padding: 0px 0px;
+        flex: 0.5;
+      }
+
+      .container-timeline{
+           display: flex;
+
+            .timeline-list {
+              list-style: none;
+              margin: 0;
+              padding: 0;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              flex-direction: column;
+    
+            .timeline-item {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              cursor: pointer;
+              margin-bottom:20px;
+              background-color: transparent;
+
+              .timeline-circle {  
+
+                position: relative;
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                background-color: #80fff9;
+                display: flex;
+                color: black;
+                justify-content: center;
+                align-items: center;
+                border-width: 10px;
+                border-color: #000;
+                transition: 1s ease; 
+                margin-bottom: 5px;
+                @include mobile{
+                  display: flex;
+                }
+
+                &.active{
+                  background-color: #000;
+                }
+                .timeline-icon {
+                  font-size: 30px;
+                  color: #000; 
+                }
+             
+              
+              }
+            
+              // span {
+              //   font-size: 15px;
+              //   font-weight: 500;
+              // }
+        }
+      }
+    }
+    }
+    .timeline-info{
+      flex: 0.8;
+      margin-bottom: 10px;
+      h3{
+        font-size: 40px;
+      } 
+      h4{
+        margin-top: 5px;
+      }
+      p{
+        margin-top: 5px;
+        font-size: 15px;
+        text-align: justify;
+      }
+      .date-seminar{
+        margin-bottom: 5px;
+      }
+
+
+    }
+  }
+}
+

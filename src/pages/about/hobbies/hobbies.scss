@@ -1,0 +1,81 @@
+@import "../../../global.scss";
+
+.hobbies{
+    background-color: white;
+
+    .hobbies-container{
+        display: flex;
+        justify-content: center;
+        padding: 40px 100px;
+        @include mobile{
+            flex-direction: column;
+            padding: 50px 30px;
+        }
+        .left{
+            flex: 0.5;
+            align-self: center;
+            .image-container{
+                align-self: center;
+                img{
+                    align-self: center;
+                    width: 450px;
+                    height: 400px;
+                    background-size: cover;
+                    @include mobile{
+                        width: 300px;
+                        height: 250px;
+                    }
+                }
+            }
+        }
+        
+        .right{
+            flex: 0.5;
+            
+            .container-right{
+            
+                display: flex;
+                height: 100%;
+                flex-direction: column;
+                justify-content: space-between;
+                .top{
+                    margin-bottom: 20px;
+                    h1{
+                        font-size: 30px;
+                        text-align: center;
+                        margin: 10px 0;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                }
+                .bottom{
+                    align-self: center;
+                    button {
+                        border-radius: 20px;
+                        width: 80px;
+                        height: 40px;
+                        border-width: 0;
+                        color: whitesmoke;
+                        background-color: black;
+                        margin-right: 20px;
+                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+                        
+                        &:hover {
+                          color: rgb(3, 3, 3);
+                          background-color: rgb(230, 230, 230);
+                        
+                        }
+                        
+                        &.active {
+                          color: black;
+                          background-color: rgb(230, 230, 230);
+                        
+                        }
+                      }
+       
+                }
+            }
+        }
+    }
+}

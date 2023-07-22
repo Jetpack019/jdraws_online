@@ -1,0 +1,22 @@
+.introProj{
+    background-color: white;
+    overflow: hidden;
+
+    .container{
+      
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100&;
+            height: 100vh;
+            font-size: 3rem;
+            font-weight: bold;
+            color: #000;
+            background: black;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-right: 20px;
+        }
+    }
+}
