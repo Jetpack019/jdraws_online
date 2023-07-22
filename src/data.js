@@ -61,40 +61,29 @@ export const infographics = [
 export const iconsLogo = [
   {
     id: 1,
-    title: "Mobile Social Media App",
-    img: "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
-    imgLink: "https://example.com/SocialMediaApp.png"
+    title: "Logo Websites",
+    img: "../assets/projectImg/logoweb.png",
+    imgLink: "../assets/projectImg/logoweb.png"
   },
   {
     id: 2,
-    title: "Mobile Rampa UI Design",
-    img: "https://cdn.dribbble.com/users/5920881/screenshots/15463142/media/b5a460223798bd85d835710806e2f3dd.png?compress=1&resize=1200x900",
-    imgLink: "https://example.com/RampaUIDesign.png"
+    title: "Logo Mobile App",
+    img: "../assets/projectImg/logomobile.png",
+    imgLink: "../assets/projectImg/logomobile.png"
   },
   {
     id: 3,
-    title: "Mobile E-commerce Design",
-    img: "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
-    imgLink: "https://example.com/EcommerceDesign.png"
+    title: "Logo",
+    img: "../assets/projectImg/logorandom.png",
+    imgLink: "../assets/projectImg/logorandom.png"
   },
   {
     id: 4,
-    title: "Mobile Relax App",
-    img: "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
-    imgLink: "https://example.com/RelaxApp.png"
+    title: "Icons",
+    img: "../assets/projectImg/iconsrandom.png",
+    imgLink: "../assets/projectImg/iconsrandom.png"
   },
-  {
-    id: 5,
-    title: "Mobile Hero Design",
-    img: "https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900",
-    imgLink: "https://example.com/HeroDesign.png"
-  },
-  {
-    id: 6,
-    title: "Mobile Banking App",
-    img: "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
-    imgLink: "https://example.com/BankingApp.png"
-  },
+ 
 ];
 
 export const Model3D = [

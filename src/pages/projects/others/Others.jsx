@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import "./others.scss";
 import OthersList from '../otherList/OthersList';
 import {
-  mobilePortfolio,
+
   uiDesign,
   infographics,
   Model3D,
@@ -58,7 +58,7 @@ function Others() {
 
   return (
     <div className="others" id="others">
-      <h1>Designing</h1>
+      <h1>Designs</h1>
       <ul>
         {list.map(item => (
           <OthersList

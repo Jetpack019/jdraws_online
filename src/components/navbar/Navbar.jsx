@@ -11,9 +11,10 @@ export default function Navbar({menuOpen, setMenuOpen}) {
             </div>  
             <div className="itemContainer">
                 {/* <Person className="icon" /> */}
+                <span><a href="#intro">Intro</a></span>
                 <span><a href="#projectCard">Projects</a></span>
                 <span><a href="#certificates">Certificates</a></span>
-                <span><a href="#resume">Resume</a></span>
+              
             </div>
               
             <div className="right">

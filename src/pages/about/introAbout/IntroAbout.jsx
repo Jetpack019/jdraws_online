@@ -15,9 +15,10 @@ function IntroAbout() {
                     <h3>CSS</h3>
                     <h3>JAVASCRIPT</h3>
                     <h3>REACT.JS</h3>
+                    <h3>SASS</h3>
+                    <h3>BOOTSTRAP</h3>
                     <h3>DART</h3>
                     <h3>SQL</h3>
-                    <h3>FIREBASE</h3>
                     <h3>FIGMA</h3>
                 </div>
                 <button>Contact Me</button>
