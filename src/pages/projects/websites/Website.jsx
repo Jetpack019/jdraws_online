@@ -8,6 +8,7 @@ function Website() {
     {
       id: "1",
       title: "Cozy Wears",
+      
       textcolor: "#232221",
       buttoncolor: "#28cdf7",
       description: "Cozy Wear is a user-friendly front-end ecommerce application designed to provide customers with a seamless online shopping experience, offering a wide range of high-quality and stylish sweaters for sale at competitive prices.",
@@ -16,7 +17,10 @@ function Website() {
       img3: "../assets/projectImg/websites/cozy2.PNG",
       backgroundColor: "#E97451",
       work: "Front End Web Design", 
-      imgLink: "https://cozywears.jaderossbanag.repl.co/"
+      imgLink: "https://cozywears.jaderossbanag.repl.co/",
+      proglang1: "Javascript",
+      proglang2: "BOOTSTRAP",
+      proglang3: "CSS",
     },
     {
       id: "1",
@@ -29,7 +33,10 @@ function Website() {
       img3: "../assets/projectImg/websites/img1.1.PNG",
       backgroundColor: "skyblue",
       work: "Front End Web Design", 
-      imgLink: "https://art-haven.jaderossbanag.repl.co/"
+      imgLink: "https://art-haven.jaderossbanag.repl.co/",
+      proglang1: "HTML",
+      proglang2: "CSS",
+      proglang3: "JAVASCRIPT",
     },
     {
       id: "1",
@@ -41,7 +48,10 @@ function Website() {
       img3: "../assets/projectImg/websites/2.PNG",
       backgroundColor: "orange",
       work: "Front End Web Design",
-      imgLink: "https://foodfinder.jaderossbanag.repl.co/"
+      imgLink: "https://foodfinder.jaderossbanag.repl.co/",
+      proglang1: "HTML",
+      proglang2: "CSS",
+      proglang3: "JAVASCRIPT",
     },
     {
       id: "1",
@@ -53,7 +63,10 @@ function Website() {
       img3: "../assets/projectImg/websites/HPI_7.PNG",
       backgroundColor: "white",
       work: "Front End Web Design",
-      imgLink: "https://happyeat.jaderossbanag.repl.co/"
+      imgLink: "https://happyeat.jaderossbanag.repl.co/",
+      proglang1: "HTML",
+      proglang2: "CSS",
+      proglang3: "JAVASCRIPT",
     },
     {
       id: "1",
@@ -65,7 +78,10 @@ function Website() {
       img3: "../assets/projectImg/websites/Creative_Constructs3.PNG",
       backgroundColor: "#fa347f",
       work: "Front End Web Design",
-      imgLink: "https://craft-me.jaderossbanag.repl.co/"
+      imgLink: "https://craft-me.jaderossbanag.repl.co/",
+      proglang1: "HTML",
+      proglang2: "CSS",
+      proglang3: "JAVASCRIPT",
     },
     {
       id: "1",
@@ -77,7 +93,10 @@ function Website() {
       img3: "../assets/projectImg/websites/onepiece5.PNG",
       backgroundColor: "#00f2fe",
       work: "Front End Web Design",
-      imgLink: "https://onepiece.jaderossbanag.repl.co/"
+      imgLink: "https://onepiece.jaderossbanag.repl.co/",
+      proglang1: "HTML",
+      proglang2: "CSS",
+      proglang3: "JAVASCRIPT",
     },
 
   ];
@@ -123,9 +142,9 @@ function Website() {
                   </div>
                  
                   <div className="row_useCodes" style={{ color: slide.textcolor }}>
-                    <h3 >HTML</h3>
-                    <h3>CSS</h3>
-                    <h3>Javascript</h3>
+                    <h3 >{slide.proglang1}</h3>
+                    <h3>{slide.proglang2}</h3>
+                    <h3>{slide.proglang3}</h3>
                   </div>
                 </div>
               </div>
