@@ -7,6 +7,19 @@ function Website() {
   const data = [
     {
       id: "1",
+      title: "Cozy Wears",
+      textcolor: "#232221",
+      buttoncolor: "#28cdf7",
+      description: "Cozy Wear is a user-friendly front-end ecommerce application designed to provide customers with a seamless online shopping experience, offering a wide range of high-quality and stylish sweaters for sale at competitive prices.",
+      img: "../assets/projectImg/websites/cozywear_website.png",
+      img2: "../assets/projectImg/websites/cozy1.PNG",
+      img3: "../assets/projectImg/websites/cozy2.PNG",
+      backgroundColor: "#E97451",
+      work: "Front End Web Design", 
+      imgLink: "https://cozywears.jaderossbanag.repl.co/"
+    },
+    {
+      id: "1",
       title: "Art Haven",
       textcolor: "#232221",
       buttoncolor: "#28cdf7",
