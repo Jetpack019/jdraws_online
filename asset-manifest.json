@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jdraws/static/css/main.d329b2b4.css",
+    "main.js": "/jdraws/static/js/main.d07482f3.js",
+    "index.html": "/jdraws/index.html",
+    "main.d329b2b4.css.map": "/jdraws/static/css/main.d329b2b4.css.map",
+    "main.d07482f3.js.map": "/jdraws/static/js/main.d07482f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d329b2b4.css",
+    "static/js/main.d07482f3.js"
+  ]
+}
