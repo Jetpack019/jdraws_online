@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jetpack019.github.io/jdraws/",
+
   "name": "jadeportfolio",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +10,7 @@
     "framer-motion": "^10.12.17",
     "ityped": "^1.0.3",
     "react": "^18.2.0",
+    " ": "^4.4.5",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-move": "^6.5.0",
@@ -22,8 +23,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+ 
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
