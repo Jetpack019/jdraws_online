@@ -26,7 +26,7 @@ function IntroAbout() {
             </div>
             <div className="right">
                 <div className="img-container">
-                    <img src="../assets/aboutImg/me.jpg" alt="" />
+                    <img src="../assets/aboutImg/me.png" alt="" />
                 </div>
             </div>
         </div>
