@@ -48,7 +48,7 @@ function Education() {
       speaker5: 'Engr. Christoper D.C. Dominguez',
       icons: <MdPeople />,
     
-      backgroundcolor: '#fff',
+      backgroundcolor: '#fff', 
       image: '../../assets/aboutImg/education/seminars.png'
     },
     // Add more timeline data items as needed
