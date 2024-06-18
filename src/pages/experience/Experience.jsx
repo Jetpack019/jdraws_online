@@ -14,7 +14,7 @@ function Experience() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
           <div className="sections">
             <DataAnnotation/>
- 
+            <DataAnnotation/>
         </div>
     </div>
   )

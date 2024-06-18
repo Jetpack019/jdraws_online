@@ -11,6 +11,7 @@
         flex-direction: column;
         align-items: center;
     }
+
     .arrow{
         height: 50px;
         position: absolute;
@@ -37,7 +38,11 @@
         .container{
             width: 100vw;
             height: 88.7vh;
-
+            @include large-screen {
+                width: 100vw;
+                height: 70vh;
+              }
+            
             .item{ 
                 display: flex;
                 justify-content: center;
