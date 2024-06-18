@@ -7,7 +7,9 @@
         display: flex;
         padding: 40px 120px;
         justify-content: center; 
-        
+        @include large-screen {
+            height: 70vh;
+          }
         @include mobile{
             flex-direction: column;
             padding: 30px 50px;
@@ -22,6 +24,10 @@
             @include mobile{
                 margin-right: 0px;
             }
+            @include large-screen {
+                height: 70vh;
+                justify-content: center;
+              }
             h1{
                 font-size: 40px;
                 color: white;
@@ -103,6 +109,10 @@
                         height: 250px;
                         width: 300px;
                     }
+                    @include large-screen {
+                        height: 450px;
+                        width: 550px;
+                      }
                 }
             }
         }

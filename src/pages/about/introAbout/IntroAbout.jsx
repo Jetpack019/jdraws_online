@@ -7,7 +7,7 @@ function IntroAbout() {
         
         <div className="container-About">
             <div className="left">
-                <h1>Front End Developer & UI/UX Designer</h1>
+                <h1>Aspiring Front End Developer</h1>
                 <p>I create visually appealing and user-friendly interfaces for web applications. With a focus on problem-solving and staying up-to-date with industry trends, I am eager to contribute my skills and expertise to innovative web development projects and collaborate with dynamic teams. With a passion for web development and a commitment to delivering high-quality results, I am confident in adding significant value to any project.</p>
                 <h2>Technology Stack</h2>
                 <div className="row_tech_stack">

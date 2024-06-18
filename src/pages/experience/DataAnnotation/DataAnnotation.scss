@@ -39,7 +39,6 @@
             width: 100vw;
             height: 88.7vh;
             @include large-screen {
-                width: 100vw;
                 height: 70vh;
               }
             
@@ -79,7 +78,7 @@
         
                         @include mobile{
                             width:450px;
-                        height: 350px;
+                            height: 350px;
                         }
                         img{
                             height:80%;

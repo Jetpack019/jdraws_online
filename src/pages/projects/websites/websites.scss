@@ -37,7 +37,11 @@
         .container{
             width: 100vw;
             height: 88.7vh;
-
+            @include large-screen {
+                
+                height: 70vh;
+                padding-top: 20px;
+              }
             .item{ 
                 display: flex;
                 justify-content: center;

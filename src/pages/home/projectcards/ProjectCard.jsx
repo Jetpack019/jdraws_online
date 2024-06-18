@@ -7,7 +7,7 @@ function ProjectCard() {
     {
       id: 1,
       projtype: "Websites",
-      image: "assets/HomeImg/All_Websites.png",
+      image: "assets/HomeImg/All_Websites-Exp.png",
       path: "/project#websites"
     },
     {

@@ -13,6 +13,9 @@
       justify-content: center;
       padding-top: 100px;
     }
+    @include large-screen {
+      padding-top: 100px;
+    }
     .left{  
       flex: 0.55;
       justify-content: flex-start;
