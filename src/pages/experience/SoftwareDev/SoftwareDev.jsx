@@ -8,19 +8,19 @@ function SoftwareDev() {
       id: 1,
       projtype: "Websites",
       image: "../assets/HomeImg/All_Websites.png",
-      path: "jdraws-online.vercel.app/project/#websites"
+      path: "/project/#websites"
     },
     {
       id: 2,
       projtype: "Mobile App",
       image: "../assets/HomeImg/All_mobileApp.png",
-      path: "jdraws-online.vercel.app/project/#mobile"
+      path: "/project/#mobile"
     },
     {
       id: 3,
       projtype: "Graphic Designs",
       image: "../assets/HomeImg/All_others.png",
-      path: "jdraws-online.vercel.app/project/#others"
+      path: "/project/#others"
     }
   ];
 
