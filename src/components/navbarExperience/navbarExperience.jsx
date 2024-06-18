@@ -9,8 +9,8 @@ function NavbarExperience({menuOpen, setMenuOpen}) {
                 <a href="#introProj" className='logo'>JDraws</a>
             </div>  
             <div className="itemContainer">
-                <span><a href="#dataAnnotation">AI Data Annotation</a></span>
                 <span><a href="#projectSoftware">Software Development</a></span>
+                <span><a href="#dataAnnotation">AI Data Annotation</a></span>
                 <span><a href="#dataAnnotation">Tech Expertise</a></span>
             </div>
               
