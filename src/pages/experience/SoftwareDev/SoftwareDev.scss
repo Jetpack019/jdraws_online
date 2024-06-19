@@ -30,10 +30,10 @@
             justify-content: space-between;
         
             @include mobile {
-                display: grid;
-                grid-template-columns: 2fr 1fr; /* Two columns in a 2:1 ratio */
-                margin: 0 40px;
-              }
+              display: grid;
+              grid-template-columns: repeat(1, 1fr);
+              margin: 0 40px;
+            }
     
             .image-container {
               margin: 20px 20px;
@@ -44,7 +44,7 @@
               border-radius:30px;
               box-shadow: 0px 0px 12px -8px black;
               @include mobile{
-                margin: 0;
+                margin: 5px;
                 flex-wrap: wrap;
                 align-items: center;
                 height: 200px;
@@ -86,7 +86,6 @@
               }
       
               h1 {
-           
                 font-size: 20px;
                 position: absolute;
                 bottom: 10px;

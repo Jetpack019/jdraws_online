@@ -7,13 +7,15 @@
         display: flex;
         padding: 40px 120px;
         justify-content: center; 
-        @include large-screen {
-            height: 70vh;
-        }
-        @include mobile{
-            flex-direction: column;
-            padding: 30px 50px;
-        }
+
+            @include large-screen {
+                height: 70vh;
+            }
+            @include mobile{
+                flex-direction: column;
+                padding: 30px 50px;
+            }
+            
         .left{
             flex: 0.7;
             display: flex;
@@ -58,7 +60,6 @@
                 color: black;
                 justify-content: space-between;
                 @include mobile{
-                 
                     grid-template-columns: repeat(4, 1fr);
                 }
                 h3 {
@@ -66,27 +67,24 @@
                     font-size: 15px;
                     margin-right: 10px;
                     margin-bottom: 10px;
-                    background-color: black;
-                    color: white;
+                    background-color: white;
                     padding: 7px;
                     border-radius: 10px;
                     text-align: center;
                     display: inline-block;
                     line-height: 1;
                     &:hover{
-                    
-                        color: black;
-                        background-color: white;
+                        background-color: black;
+                        color: white;
+                       
                     }
                     @include mobile{
                         font-size:10px;
-         
                     }
                   }
                 
             }
-
-            
+        
         }
     
         .right{
