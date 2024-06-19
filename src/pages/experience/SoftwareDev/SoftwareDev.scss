@@ -5,12 +5,10 @@
 .projectSoftware {
     background-color: black;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 
     @include mobile{
-        display: flex;
         flex-direction: column;
     }
 
@@ -21,18 +19,23 @@
         font-size: 40px;
         margin-bottom: 20px;
         color: white;
+        @include mobile{
+            text-align: center;
+            font-size: 25px;
+        }
       }
       .wrapper-projects{
- 
+        
         .card {
             border-radius:30px;
             display: flex;
             justify-content: space-between;
-        
+            
             @include mobile {
               display: grid;
               grid-template-columns: repeat(1, 1fr);
               margin: 0 40px;
+              justify-content: center;
             }
     
             .image-container {
@@ -44,12 +47,8 @@
               border-radius:30px;
               box-shadow: 0px 0px 12px -8px black;
               @include mobile{
-                margin: 5px;
-                flex-wrap: wrap;
-                align-items: center;
                 height: 200px;
-                width: 200px;
-                margin-top: 20px;
+                width: 200px;   
               }
 
               img {
