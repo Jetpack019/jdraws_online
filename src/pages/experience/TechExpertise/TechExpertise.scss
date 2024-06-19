@@ -5,99 +5,101 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    @include large-screen {
-        height: 100%;
-    }
-    .row{
-        display: flex;
-        flex-direction: row;
-        @include mobile{
-            flex-direction: column; 
-        }
-        .techContentContainer{
+    
+    .container{
+        margin: auto;
+        .row{
             display: flex;
-            text-align: center;
-
-
-            @include large-screen {
-                margin: 20px 20px;
-                padding: 20px 20px;
-                height: 500px;
-                width: 400px;
-            }
-
+            flex-direction: row;
             @include mobile{
-                margin: 10px 10px;
-                padding: 10px 10px;
-                height: 400px;
-                width: 300px;             
+                
+                flex-direction: column; 
             }
-            .image-container{
-                margin: 20px 20px;
-                cursor: pointer;
-                position: relative;
+            .techContentContainer{
                 display: flex;
-                align-items: flex-end;
-                box-shadow: 0px 0px 12px -8px black;
-                img{
-                    object-fit: cover;
-                    transition: filter 0.3s ease;
+                text-align: center;
+                margin: auto;
+              
+                @include large-screen {
+                    margin: 20px 20px;
+                    padding: 20px 20px;
+                    height: 500px;
+                    width: 400px;
+                }
+    
+                @include mobile{
+                    margin: 10px 10px;
+                    padding: 10px 10px;
+                    height: 400px;
+                    width: 300px;             
+                }
+                .image-container{
+                    margin: 20px 20px;
+                    cursor: pointer;
+                    position: relative;
+                    display: flex;
+                    align-items: flex-end;
+                    box-shadow: 0px 0px 12px -8px black;
+                    img{
+                        object-fit: cover;
+                        transition: filter 0.3s ease;
+                        @include large-screen {
+                            width: 100%; 
+                            margin-bottom: 40px;
+                        }
+                        @include mobile{
+    
+                        }
+        
+                    }
+                    .hover-text {
+                        visibility: hidden;
+                    }
+                    &:hover img {
+                        filter: none;
+                      }
+            
+                      &:before {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0);
+                        z-index: 1;
+                        transition: background-color 0.3s ease;
+                      }
+              
+                      &:hover:before {
+                        background-color: rgba(0, 0, 0, 0.6);
+                      }
+                                    
+                    &:hover .hover-text {
+                        opacity: 1; 
+                    }
+                }
+                h1{
+    
                     @include large-screen {
-                        width: 100%; 
-                        margin-bottom: 40px;
+                        font-size: 30px;
+                        margin-bottom: 10px;
                     }
                     @include mobile{
-
+                        font-size: 20px;
                     }
+                }
+                p{
+                    @include large-screen {
     
+                    }   
+                    @include mobile{
+                        font-size: 13px;
+                    }
                 }
-                .hover-text {
-                    visibility: hidden;
+                h1,p{
+                    color: white;
                 }
-                &:hover img {
-                    filter: none;
-                  }
-        
-                  &:before {
-                    content: '';
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                    background-color: rgba(0, 0, 0, 0);
-                    z-index: 1;
-                    transition: background-color 0.3s ease;
-                  }
-          
-                  &:hover:before {
-                    background-color: rgba(0, 0, 0, 0.6);
-                  }
-                                
-                &:hover .hover-text {
-                    opacity: 1; 
-                }
-            }
-            h1{
-
-                @include large-screen {
-                    font-size: 30px;
-                    margin-bottom: 10px;
-                }
-                @include mobile{
-                    font-size: 20px;
-                }
-            }
-            p{
-                @include large-screen {
-
-                }   
-                @include mobile{
-                    font-size: 13px;
-                }
-            }
-            h1,p{
-                color: white;
             }
         }
     }

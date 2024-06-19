@@ -23,21 +23,23 @@ function TechExpertise() {
   return (
     <div className="techExpertise" id="techExpertise">
       
-        <div className="row">
-            
-            {TechExpertiseData.map((tech,index) =>(
-                <div className="techContentContainer">
-                    <div className="techContent">
-                        <div className="image-container">
-                        <img src={tech.image} alt="" />
-                        </div>
-                        <h1>{tech.title} </h1>
-                        <p>{tech.text} </p>
-                    </div>
-                </div>
-            
-            ))}
-        </div>
+    <div className="container">
+      <div className="row">
+              
+              {TechExpertiseData.map((tech) =>(
+                  <div className="techContentContainer">
+                      <div className="techContent">
+                          <div className="image-container">
+                          <img src={tech.image} alt="" />
+                          </div>
+                          <h1>{tech.title} </h1>
+                          <p>{tech.text} </p>
+                      </div>
+                  </div>
+              
+              ))}
+          </div>
+    </div>
     </div>
   )
 }
