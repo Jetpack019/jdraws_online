@@ -10,8 +10,8 @@ function NavbarExperience({menuOpen, setMenuOpen}) {
             </div>  
             <div className="itemContainer">
                 <span><a href="#projectSoftware">Software Development</a></span>
-                <span><a href="#dataAnnotation">AI Data Annotation</a></span>
-                <span><a href="#dataAnnotation">Tech Expertise</a></span>
+                <span><a href="#dataAnnotation">Artificial Intelligence</a></span>
+                <span><a href="#techExpertise">Tech Expertise</a></span>
             </div>
               
             <div className="right">

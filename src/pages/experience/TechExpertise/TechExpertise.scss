@@ -1,0 +1,51 @@
+@import  "../../../global.scss";
+
+.techExpertise {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        
+        .techContentContainer{
+            display: flex;
+            text-align: center;
+
+
+            @include large-screen {
+                margin: 20px 20px;
+                padding: 20px 20px;
+                height: 500px;
+                width: 400px;
+            }
+            img{
+
+                object-fit: cover;
+                @include large-screen {
+                    width: 100%; 
+                    margin-bottom: 40px;
+                }
+
+            }
+            h1{
+
+                @include large-screen {
+                    font-size: 30px;
+                    margin-bottom: 10px;
+                }
+            }
+            p{
+                @include large-screen {
+                    font-size: 18px;
+                }   
+            }
+            h1,p{
+                color: white;
+            }
+        }
+    }
+}
+

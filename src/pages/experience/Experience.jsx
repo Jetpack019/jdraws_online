@@ -6,6 +6,7 @@ import DataAnnotation from './DataAnnotation/DataAnnotation'
 import NavbarExperience from '../../components/navbarExperience/navbarExperience'
 
 import SoftwareDev from './SoftwareDev/SoftwareDev'
+import TechExpertise from './TechExpertise/TechExpertise'
 
 
 function Experience() {
@@ -15,9 +16,9 @@ function Experience() {
     <NavbarExperience menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
           <div className="sections">
-          <SoftwareDev/>
+            <SoftwareDev/>
             <DataAnnotation/>
-          
+            <TechExpertise/>
         </div>
     </div>
   )
