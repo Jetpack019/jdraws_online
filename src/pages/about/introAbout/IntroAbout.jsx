@@ -4,7 +4,6 @@ import "./introabout.scss"
 function IntroAbout() {
   return (
     <div className='introAbout'>
-        
         <div className="container-About">
             <div className="left">
                 <h1>Aspiring Front End Developer</h1>
@@ -21,8 +20,7 @@ function IntroAbout() {
                     <h3>SQL</h3>
                     <h3>FIGMA</h3>
                 </div>
-                <button>Contact Me</button>
-                
+  
             </div>
             <div className="right">
                 <div className="img-container">
