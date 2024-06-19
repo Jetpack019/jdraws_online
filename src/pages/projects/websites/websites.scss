@@ -57,8 +57,7 @@
                     padding: 0px 50px;
             
                     @include mobile{
-                        padding: 0px 10px;
-            
+                        padding: 0px 30px; 
                     }
                     h1{
                         font-size: 3rem;
@@ -77,8 +76,8 @@
                         flex-direction: column;
         
                         @include mobile{
-                            width:450px;
-                        height: 350px;
+                            width:350px;
+                            height: 350px;
                         }
                         img{
                             height:80%;
@@ -97,7 +96,7 @@
                     justify-content: space-around;
                     padding-bottom: 50px;
                     @include mobile{
-                        padding: 0px 10px;
+                        padding: 20px 30px;
                     }
                  
                     .topImages{
@@ -115,7 +114,13 @@
                     }
                     .title{
                         font-size: 0.8rem;
-                        
+                        h1{
+                            @include mobile{
+                                margin-top: 15px;
+                                font-size: 1.2rem;
+                            }
+                        }
+
                         .work_title {
                             margin-top: 20px;
                             

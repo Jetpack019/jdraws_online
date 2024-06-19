@@ -12,7 +12,7 @@ function IntroProj() {
       backDelay:1500,
       backSpeed: 60,
       showCursor:true,
-       strings: ['My Projects','Websites', 'Mobile Applications', 'Designing'] })
+       strings: ['My Projects','Websites', 'Mobile Apps', 'Designs'] })
   },[])
 
 
@@ -43,7 +43,7 @@ function IntroProj() {
           WebkitTextFillColor: 'transparent'
         }}
         className="mobile-styles"
-      >#
+      ><span>#</span>
       <span ref={textRef}></span>
       </motion.div>
     </div>

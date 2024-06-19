@@ -67,13 +67,11 @@
        p{
           font-size: 20px;
           margin: 0px 80px;
-          
 
-
-          @include mobile{
-            text-align:center;
-            margin: 0px 20px;
-          }
+            @include mobile{
+              text-align:center;
+              margin: 0px 20px;
+            }
         }
       }
     .right{
@@ -104,9 +102,14 @@
             grid-template-columns: repeat(2, 1fr);
             gap: 5px;
             overflow: hidden;
-  
+            img{
+              @include mobile{
+                margin-top: 10px;
+            }
+            }
             @include mobile{
-              grid-template-columns: repeat(1, 1fr);
+              grid-template-columns: repeat(2, 1fr);
+              padding: 0 10px;
             }
     
               .slide-link{
@@ -131,8 +134,8 @@
 
                       @include mobile{
                         width: 70%;
-                      height: 70%;
-                    }
+                        height: 70%;
+                      }
                     }
               }
           }
