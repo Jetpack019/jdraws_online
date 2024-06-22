@@ -117,7 +117,46 @@ function Certificates() {
       type: "Certificate of Participation",
       speaker: "BulSU: Computer Engineering Department",
     },
-
+    {
+      id: "15",
+      title: "Programming Fundamentals",
+      img: "../assets/HomeImg/certificates/cert-advance/2262151_Programming_Fundamentals_3330313-1_page-0001.jpg",
+      backgroundColor: "white",
+      type: "Certificate of Completion",
+      speaker: "Simplilearn",
+    },
+    {
+      id: "16",
+      title: "Introduction to Jquery",
+      img: "../assets/HomeImg/certificates/cert-advance/4491806_1693813402-1.png",
+      backgroundColor: "white",
+      type: "Certificate of Completion",
+      speaker: "Simplilearn",
+    },
+    {
+      id: "17",
+      title: "Introduction to MERN Stack",
+      img: "../assets/HomeImg/certificates/cert-advance/4620522_1698858308-1.png",
+      backgroundColor: "white",
+      type: "Certificate of Completion",
+      speaker: "Simplilearn",
+    },
+    {
+      id: "18",
+      title: "Introduction to Dev Ops Tools",
+      img: "../assets/HomeImg/certificates/cert-advance/4739239_1703498626-1.png",
+      backgroundColor: "white",
+      type: "Certificate of Completion",
+      speaker: "Simplilearn",
+    },
+    {
+      id: "19",
+      title: "Introduction to SEO Fundamentals",
+      img: "../assets/HomeImg/certificates/cert-advance/Certificate-SEO-Introduction-1.png",
+      backgroundColor: "white",
+      type: "Certificate of Completion",
+      speaker: "Simplilearn",
+    },
   ];
 
   const handleClick = (way) => {
