@@ -82,16 +82,13 @@
                         font-size:10px;
          
                     }
-                  }
-                
+                  }    
             }
-
-            
         }
     
         .right{
             flex: 0.5;
-    
+
             .img-container{
                 align-items: center;
                 padding: 20px 20px;
@@ -106,6 +103,7 @@
                     @include large-screen {
                         height: 450px;
                         width: 550px;
+                        margin-top: 20px;
                       }
                 }
             }

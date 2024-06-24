@@ -4,14 +4,14 @@ import "./TechExpertise.scss";
 
 const TechExpertiseData = [
     {
-      image: "../assets/HomeImg/All_Websites.png",
+      image: "../assets/expImg/Experience/Tech Expertise/PC-build.png",
       title: "Building and Upgrading PC",
       text: "I've enjoyed building my own PCs, gaining experience in selecting compatible components and assembling them into functional machines."
     },
     {
-      image: "../assets/HomeImg/All_Websites.png",
+      image: "../assets/expImg/Experience/Tech Expertise/Repair.png",
       title: "Hardware Repair",
-      text: "Troubleshooting and fixing hardware issues on PCs and other devices has helped me develop practical problem-solving skills."
+      text: "Dealing with hardware issues on PCs and other devices has helped me build basic problem-solving skills."
     },
     {
       image: "../assets/HomeImg/All_Websites.png",

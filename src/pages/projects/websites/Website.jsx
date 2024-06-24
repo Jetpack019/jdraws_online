@@ -98,7 +98,21 @@ function Website() {
       proglang2: "CSS",
       proglang3: "JAVASCRIPT",
     },
-
+    {
+      id: "1",
+      title: "Guitar Play Central",
+      textcolor: "#fff",
+      description: "Guitar Play Central is a website I created that offers tuner sales, tutorial videos, and a blog. It's a resourceful platform for guitarists to find tools and information to improve their skills. The site caters to both novice and seasoned players with diverse content.",
+      img: "../assets/projectImg/websites/Guitar-bg.PNG",
+      img2: "../assets/projectImg/websites/Guitar-bg2.PNG",
+      img3: "../assets/projectImg/websites/Guitar-bg3.PNG",
+      backgroundColor: "#000",
+      work: "Front End Web Design",
+      imgLink: "https://one-piece-fan-page-two.vercel.app/",
+      proglang1: "Javascript",
+      proglang2: "HTML",
+      proglang3: "CSS",
+    },
   ];
 
   const handleClick = (way) => {
@@ -141,8 +155,8 @@ function Website() {
                   <h1 >{slide.work}</h1>
                   </div>
                  
-                  <div className="row_useCodes" style={{ color: slide.textcolor }}>
-                    <h3 >{slide.proglang1}</h3>
+                  <div className="row_useCodes" style={{ color: slide.title === "Guitar Play Central" ? "#000" : slide.textcolor }}>
+                    <h3>{slide.proglang1}</h3>
                     <h3>{slide.proglang2}</h3>
                     <h3>{slide.proglang3}</h3>
                   </div>

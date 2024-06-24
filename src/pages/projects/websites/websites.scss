@@ -103,7 +103,10 @@
                         display: flex;
                         justify-content: center;
                         align-items: center;
-
+                        
+                        @include large-screen{
+                            margin-bottom: 20px;
+                        }
                       img{
     
                         height:100%;
