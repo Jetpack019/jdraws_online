@@ -11,13 +11,13 @@ function DataAnnotation() {
       
       textcolor: "#232221",
       buttoncolor: "#28cdf7",
-      description: "Cozy Wear is a user-friendly front-end ecommerce application designed to provide customers with a seamless online shopping experience, offering a wide range of high-quality and stylish sweaters for sale at competitive prices.",
+      description: "In this project, we annotate 100 frames using bounding boxes to classify the visible and non-visible vehicle lights, as well as road signs entering the frame, aiding in distinguishing between vehicle lights and road sign illuminations.",
       img: "../assets/expImg/Experience/RemotaskDataAnnotator/ZebraLightHouse/zebra1.PNG",
       img2: "../assets/expImg/Experience/RemotaskDataAnnotator/ZebraLightHouse/zebra2.PNG",
       img3: "../assets/expImg/Experience/RemotaskDataAnnotator/ZebraLightHouse/zebra3.PNG",
       backgroundColor: "#ffffff",
       work: "Video Playback Annotation", 
-      imgLink: "https://cozy-wears.vercel.app/",
+   
 
     },
     {
@@ -25,33 +25,33 @@ function DataAnnotation() {
       title: "Gorilla Rendlake/Spray Vision",
       textcolor: "#232221",
 
-      description: "Art Haven is an online community and marketplace for artists and art enthusiasts to connect and showcase their work.",
+      description: "In this project, we annotate images using bounding boxes to identify whether they contain corn, other broadleaf plants, other grasses, volunteer corn, and soy, helping to assess the condition of the corn and differentiate between these various plant types.",
       img: "../assets/expImg/Experience/RemotaskDataAnnotator/GorillaRendlake/spray3.PNG",
       img2: "../assets/expImg/Experience/RemotaskDataAnnotator/GorillaRendlake/spray2.PNG",
       img3: "../assets/expImg/Experience/RemotaskDataAnnotator/GorillaRendlake/spray1.PNG",
       backgroundColor: "#ffffff",
       work: "Image Annotation", 
-      imgLink: "https://art-haven.vercel.app/",
+     
 
     },
     {
       id: "1",
       title: "Anteater 3D Road Irregularity",
       textcolor: "#232221",
-      description: "Food Finder is a single-page landing website designed to help users discover and explore nearby restaurants with its intuitive interface and user-friendly design.",
+      description: "In this project, we use Lidar Lite to annotate images in 200 frames, classifying road irregularities like manhole covers, bridge joints, speed bumps, potholes, and storm drains to pinpoint areas where the car might need to slow down.",
       img: "../assets/expImg/Experience/RemotaskDataAnnotator/AnteaterRoadIrregularities/ant1.PNG",
       img2: "../assets/expImg/Experience/RemotaskDataAnnotator/AnteaterRoadIrregularities/ant2.PNG",
       img3: "../assets/expImg/Experience/RemotaskDataAnnotator/AnteaterRoadIrregularities/ant3.PNG",
       backgroundColor: "#ffffff",
       work: "Sensorfusion",
-      imgLink: "https://food-finder-two.vercel.app/",
+      
 
     },
     {
       id: "1",
       title: "Bumble Bees",
       textcolor: "#232221",
-      description: "Happy Eat In is an eatery that sources a carefully selected range of dishes from nearby restaurants. Our menu provides customers with a visually appealing display of available menu items and restaurant details, enabling them to conveniently peruse and select from a diverse array of choices.",
+      description: "In this project, we label food items using bounding boxes and polygons, categorizing each item based on its taxonomy as either a food, beverage, or non-food.",
       img: "../assets/expImg/Experience/RemotaskDataAnnotator/Bumblebees/bumblebee1.PNG",
       img2: "../assets/expImg/Experience/RemotaskDataAnnotator/Bumblebees/bumblebee2.PNG",
       img3: "../assets/expImg/Experience/RemotaskDataAnnotator/Bumblebees/bumblebee3.PNG",
@@ -88,7 +88,7 @@ function DataAnnotation() {
                <img
                     src={slide.img}
                     alt=""
-                    onClick={() => openLink(slide.imgLink)}
+                    
                     style={{ cursor: 'pointer' }}
                   />
                 </div>
