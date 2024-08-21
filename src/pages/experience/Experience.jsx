@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import "./Experience.scss"
-
-import Menu from '../../components/menu/Menu'
-import DataAnnotation from './DataAnnotation/DataAnnotation'
 import NavbarExperience from '../../components/navbarExperience/navbarExperience'
+import Menu from '../../components/menu/Menu'
 
+import DataAnnotation from './DataAnnotation/DataAnnotation'
 import SoftwareDev from './SoftwareDev/SoftwareDev'
 import TechExpertise from './TechExpertise/TechExpertise'
 

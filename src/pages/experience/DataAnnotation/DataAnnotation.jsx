@@ -57,8 +57,7 @@ function DataAnnotation() {
       img3:"../assets/expImg/Experience/RemotaskDataAnnotator/Bumblebees/bumblebee3.jpg",
       backgroundColor: "#ffffff",
       work: "Front End Web Design",
-      imgLink: "https://happy-eat-in.vercel.app/",
-  
+      
     },
 
 
