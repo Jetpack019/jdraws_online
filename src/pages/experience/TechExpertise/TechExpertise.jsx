@@ -7,19 +7,19 @@ const TechExpertiseData = [
       image: "../assets/expImg/Experience/Tech Expertise/PC-build.jpg",
       title: "Building and Upgrading PC",
       text: "I've enjoyed building my own PCs, gaining experience in selecting compatible components and assembling them into functional machines.",
-      path: "/hardware/#PCBuild"
+      path: "/hardware#PCBuild"
     },
     {
       image: "../assets/expImg/Experience/Tech Expertise/Repair.jpg",
       title: "Hardware Repair",
       text: "Dealing with basic hardware issues on PCs and other devices has helped me build basic problem-solving skills.",
-      path: "/hardware/#Repair"
+      path: "/hardware#Repair"
     },
     {
       image: "../assets/expImg/Experience/Tech Expertise/Software.jpg",
       title: "Software Troubleshooting",
       text: "I've tackled software issues by diagnosing problems and applying solutions, which has improved my understanding of software behavior.",
-      path: "/hardware/#SoftTroubleshoot"
+      path: "/hardware#SoftTroubleshoot"
     },
   ];
 
