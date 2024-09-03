@@ -1,7 +1,79 @@
 @import  "../../../global.scss";
 
-
 .PCBuild{
-    background-color: black;
-    
+    background-color: #fff;
+    padding-top: 100px;
+
+
+    .container{
+        background-size: cover;
+        background-position: center; 
+        display: flex;
+        flex-direction: column;
+      
+        .top_buttons {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            
+            h2 {
+              font-size: 20px;
+              color: #000;
+              margin-left: 50px;
+              margin-right: 30px;
+            }
+      
+            button {
+              font-size: 20px;
+              padding: 5px 15px;
+              background-color: #000;
+              color: #fff;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              margin-right: 20px;
+            }
+          }
+
+          .middle_pc_image {
+            display: flex;           
+            justify-content: center; 
+            align-items: center;     
+            height: 100%;
+          
+            img {
+              width: 700px; 
+              height: 500px;
+              object-fit: cover
+            }
+          }
+          
+        .bottom_pc_parts {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            grid-template-rows: repeat(3, auto); 
+            gap: 20px; 
+            padding: 20px; 
+          
+            div {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              text-align: center;
+              padding: 10px;
+      
+              img {
+                max-width: 200px; 
+                height: 200px;
+              }
+          
+              h3 {
+                margin-top: 10px;
+                font-size: 1rem;
+                color: #000;
+              }
+            }
+          }
+          
+    }
 }
