@@ -10,11 +10,11 @@ const images = [
 const texts = [
   {
     heading: "Building and Upgrading my PC",
-    paragraph: "Elevate your computing experience with our guide to building and upgrading your PC, where we walk you through selecting components, assembling your system, and optimizing performance to create a powerful, future-proof machine tailored to your needs."
+    paragraph: "Elevate my computing experience with guide to building and upgrading my PC, where I walk through selecting components, assembling my system, and optimizing performance to create a powerful, future-proof machine tailored for my needs."
   },
   {
     heading: "Hardware Troubleshooting",
-    paragraph: "Resolve your PC issues swiftly with our expert guide to hardware troubleshooting, offering step-by-step solutions for diagnosing and fixing common problems to keep your system running smoothly and efficiently."
+    paragraph: "Resolving basic Hardware issues swiftly using some guides to troubleshoot, offering step-by-step solutions for diagnosing and fixing common problems to keep your system running smoothly and efficiently."
   },
   {
     heading: "Software Troubleshooting",
