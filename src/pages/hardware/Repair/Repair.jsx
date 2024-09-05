@@ -4,11 +4,12 @@ import "./Repair.scss";
 // Include image URLs in the data array
 const repairData = [
   {
-    title: "Replacing laptop components",
+    title: "Replacing damaged laptop parts",
     description: "I often repair my laptop by watching instructional videos and reading forums or articles for guidance on proper techniques. I also rely on advice from experienced users to ensure I'm following the best practices. Over time, this approach has helped me become more confident in handling various repairs on my own.",
     images: [
       "/assets/hardwareImg/hardware repair/replace-laptop-components/replace-1.jpg",
-      "/assets/hardwareImg/hardware repair/replace-laptop-components/replace-2.jpg"
+      "/assets/hardwareImg/hardware repair/replace-laptop-components/replace-2.jpg",      
+      "/assets/hardwareImg/hardware repair/replace-laptop-components/replace-3.jpg"
     ]
   },
   {
@@ -46,7 +47,7 @@ function Repair() {
     const interval = setInterval(() => {
       setImageIndex(prevIndex => (prevIndex + 1) % repairData[currentIndex].images.length);
     }, 3000);
-    
+
     return () => clearInterval(interval); 
   }, [currentIndex]);
 
