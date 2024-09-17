@@ -108,7 +108,7 @@ function Website() {
       img3: "../assets/projectImg/websites/Guitar-bg3.PNG",
       backgroundColor: "#000",
       work: "Front End Web Design",
-      imgLink: "https://one-piece-fan-page-two.vercel.app/",
+      imgLink: "https://guitarplaycentral.vercel.app/",
       proglang1: "Javascript",
       proglang2: "HTML",
       proglang3: "CSS",
